@@ -1,0 +1,505 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+#head {
+  height: 110px;
+  width: 100%;
+  padding: 20px 80px;
+  display: flex;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+}
+
+/* MAIN----------------------------- */
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#banner {
+  background: url(img/banner.png) no-repeat center center;
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+}
+
+#blur {
+  width: 50%;
+  height: 100%;
+  background-color: #ffffff3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: start;
+}
+
+#banner-text {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  color: #2f3b42;
+}
+
+#banner h2 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 30px;
+}
+
+#banner h1 {
+  font-family: "Tajawal", sans-serif;
+  font-size: 70px;
+  margin-bottom: 5px;
+}
+
+#banner h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 26px;
+}
+
+#banner a {
+  font-family: "Ubuntu", sans-serif;
+  color: #2f3b42;
+  font-weight: 400;
+  font-size: 21px;
+  margin-top: 70px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  font-size: 25px;
+}
+
+hr {
+  height: 7px;
+  width: 330px;
+  background-color: #3187b7;
+}
+
+.representation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.representation_block {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  border: 4px solid #2D81AF;
+  width: 30%;
+  border-radius: 10px;
+  font-size: 21px;
+  width: 35%;
+  margin: 50px 50px;  
+}
+
+.goods {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.model {
+  padding: 49px 55px;
+  border: 2px solid #bbb;
+  border-radius: 14px;
+}
+
+.model-banner {
+  width: 249px;
+  height: 230px;
+  background: url(img/model-banner.png) no-repeat center center;
+}
+
+.model-banner-2 {
+  width: 249px;
+  height: 230px;
+  background: url(img/model-banner-2.png) no-repeat center center;
+}
+
+.model-banner-3 {
+  width: 249px;
+  height: 230px;
+  background: url(img/model-banner-3.png) no-repeat center center;
+}
+
+.model a {
+  text-decoration: none;
+  color: black;
+  border: 3px solid #C8EBFF;
+  background: #C8EBFF;
+  padding: 10px 80px;
+  border-radius: 40px;
+}
+
+.model a:hover {
+  background-color: white;
+}
+
+.product { 
+  padding: 190px 135px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.product-photo {
+  height: 500px;
+  width: 100%;
+
+}
+
+.product-photo img {
+  height: 500px;
+}
+
+.product-txt {
+  padding: 0px 170px;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.product-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-txt a {
+  display: flex;
+  align-self: flex-start;
+  text-decoration: none;
+  color: black;
+  border: 3px solid #C8EBFF;
+  background: #C8EBFF;
+  padding: 10px 80px;
+  border-radius: 40px;
+}
+
+.description {
+  width: 100%; 
+  display: flex; 
+  height: 100%; 
+  padding: 190px 135px; 
+  flex-direction: column
+}
+
+.desc-txt{
+  font-size: 21px; 
+  font-weight: 400; 
+  line-height: 24.13px; 
+  text-align: left;
+}
+
+
+/* FOOTER --------------------------- */
+
+footer {
+  background-color: #2f3b42;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 85px 90px 30px 90px;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+
+#upper_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 250px;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+#contact a {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+
+#contact img {
+  margin-right: 25px;
+}
+
+#contact p {
+  display: flex;
+  align-items: center;
+}
+
+
+.lower_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.lower_block #p1{
+  font-size: 21px; margin-bottom: 20px;
+}
+.lower_block #p2{
+  font-size: 18px; color: #9B9B9B;
+}
+
+.ellipse{
+  height: 23px;
+  width: 23px;
+}
+
+
+
+/* @media (max-width:768px) {
+  
+  header{padding: 10px 0 ;
+  }
+  .logo{ float: none;
+    margin: 0 auto 15px;
+    display: table;
+  }
+
+} */
+@media (min-width: 320px) and (max-width: 768px) {
+  header{
+    padding: 10px 0 ;
+    width: 100%;
+  }
+  #head{
+    justify-content: center
+  }
+  .logo{ 
+    display: flex;
+  }
+  .phone {
+  display: none;
+  }
+  main {
+  padding: 20px;
+  }
+  
+  #banner {
+  height: auto;
+  width: 320px;
+  }
+  
+  #banner #banner-text h2{
+    font-size: 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+  }
+
+  #banner #banner-text h1{
+    font-size: 30px;
+    margin: 20px;
+  }
+  #banner #banner-text h3{
+    font-size: 15px;
+    margin: 20px;
+
+  }
+  #banner a{
+    font-size: 15px;
+    margin: 25px;
+    margin-top:90px;
+    padding: 10px 0px;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  #blur {
+  width: 100%;
+  }
+  #banner h1 {
+  font-size: 30px;
+  }
+  #banner h2 {
+  font-size: 18px;
+  }
+  #banner h3 {
+  font-size: 18px;
+  }
+  h2{
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 13px;
+  }
+  b{
+    font-size: 16px;
+  }
+  .title {
+  margin: 50px;
+  font-size: 20px;
+  }
+  hr {
+  width: 250px;
+  }
+  .representation_block {
+  width: 80%;
+  margin: 30px 10px;
+  }
+
+  .goods {
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  .model {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .model a {
+  padding: 10px 40px;
+  margin: 10px;
+  }
+  .product {
+  flex-direction: column;
+  padding: 80px 20px;
+  }
+  .product-photo{
+    width: 100%S;
+    height: 100%;
+  }
+  .product-txt {
+  padding: 20px;
+  height: auto;
+  gap: 10px;
+  }
+  .product-title {
+  font-size: 20px;
+  }
+  .product-photo img {
+  height: 100%;
+  width: 100%;
+  }
+  .description {
+    width: 100%; 
+    display: flex; 
+    height: 100%; 
+    padding: 0; 
+    flex-direction: column
+  }
+  .desc-txt{
+    font-family:'Ubuntu', sans-serif ;
+    font-size: 15px; 
+    font-weight: 400; 
+    text-align: left;
+    margin: 30px;
+  }
+
+  .desc-txt p {
+    font-family:'Ubuntu', sans-serif;
+    font-size: 17px; 
+    font-weight: bold; 
+    line-height: 24.13px; 
+    text-align: left;
+  }
+
+  .ellipse {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .product-title hr{
+    width: 100%;
+  }
+
+
+  footer {
+  height: auto;
+  padding: 30px;
+  }
+
+  footer #contact a{
+    font-size: 10px;
+  }
+
+  .lower_block {
+    font-size: 8px;
+  }
+
+  .lower_block #p1{
+    font-size: 17px;
+  }
+
+  .lower_block #p2{
+    font-size: 10px;
+  }
+  #upper_block {
+  flex-direction: column;
+  margin-bottom: 10px;
+  }
+  #contact {
+  height: auto;
+  padding: 20px 0;
+  }
+  #contact a {
+  justify-content: left;
+  font-size: 16px;
+  }
+  #contact img {
+  margin-right: 10px;
+  }
+  .map {
+    width: 300px;
+    height: 250px;
+  }
+  }
