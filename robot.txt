@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow:
+Sitemap: https://ger4real.github.io/condicyy.github.io/index.html
